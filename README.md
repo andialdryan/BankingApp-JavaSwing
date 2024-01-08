@@ -19,7 +19,7 @@ but a user can have multiple transactions.
  - U  : password (varchar)
  - U  : current_balance (decimal)
 
-======= USER TABLE =======
+======= TRANSACTION TABLE =======
  - PK : id (int)
  - FK : user_id (int)
  -    : transaction_type (varchar)
